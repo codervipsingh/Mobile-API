@@ -1,0 +1,30 @@
+→ Phone Searching Web App
+T→ his is a simple web application that allows users to search for phones using an external API. The application displays a list of phones based on the user's search query, and users can click on a phone to view more details. The application is built using HTML, CSS (Tailwind CSS), and JavaScript.
+
+********************************************Features ************************************
+Search Functionality: Users can input a search query in the search field to find phones matching the query.
+Loading Spinner: A loading spinner is displayed while waiting for the API response.
+Show All Button: If there are more than 12 results, a "Show All" button is provided to display all matching phones.
+
+************************************Modal for Phone Details************************************* 
+Clicking on the "Show Details" button opens a modal displaying detailed information about the selected phone.
+Responsive Design: The application is designed to be responsive and work well on various screen sizes.
+*************************************File Structure*****************************************
+index.html: The main HTML file that structures the web page.
+style.css: Contains custom styles for the application, with Tailwind CSS classes.
+script.js: Contains JavaScript code for handling user interactions, fetching data from the API, and updating the UI.
+*************************************How to Run*************************************
+Open the index.html file in a web browser.
+                                                    **Usage**
+Enter a search query in the search field.
+Click the "Search" button to display matching phones.
+Click on the "Show Details" button to view detailed information about a specific phone.
+The "Show All" button appears if there are more than 12 results. Clicking it displays all matching phones.
+
+**********************************************External APIs************************************
+
+Phone Data API: The application uses the "https://openapi.programming-hero.com/api/phones" API to fetch phone data based on the user's search query.
+Dependencies
+Tailwind CSS: The application uses Tailwind CSS for styling.
+Credits
+The phone data is fetched from the Programming Hero API (https://openapi.programming-hero.com/).
